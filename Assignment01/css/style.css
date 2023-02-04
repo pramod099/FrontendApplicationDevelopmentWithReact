@@ -5,12 +5,18 @@
     font-size: large;
 }
 
-.header-text {
+.footer {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.header-text,
+.footer-text {
     padding: 0px 10px 0px 10px;
 }
 
 .hello-box {
-    border-style: dashed;
+    border-style: solid;
     text-align: center;
     padding: 50px 100px 50px 100px;
     font-weight: bold;
@@ -36,4 +42,21 @@ table {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+}
+
+.copyright {
+    padding: 10px 0px 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+.top-nav {
+    float: right;
+    font-weight: bold;
+}
+
+.top-nav a:link,
+.top-nav a:visited {
+    color: red !important;
+    text-decoration: none;
 }
